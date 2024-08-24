@@ -82,7 +82,7 @@ p, form, #wrapper .copyright, li {
     text-decoration: underline;
 }
 
-/* Base styles */
+/* Show the button if @media < 1152px */
 .responsive-button {
     display: none;
 }
