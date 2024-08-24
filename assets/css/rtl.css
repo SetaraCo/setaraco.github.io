@@ -81,3 +81,14 @@ p, form, #wrapper .copyright, li {
 .telegram-link:hover {
     text-decoration: underline;
 }
+
+/* Base styles */
+.responsive-button {
+    display: none;
+}
+
+@media (max-width: 1152px) {
+    .responsive-button {
+        display: inline-block;
+    }
+}
