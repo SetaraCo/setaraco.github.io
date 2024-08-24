@@ -22,6 +22,8 @@ section, summary, time, mark, audio, video {
 #wrapper section > header h1 + p {
     font-family: Vazirmatn, sans-serif;
     letter-spacing: 0.01em;
+    font-size: 0.95rem;
+    line-height: 2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,6 +34,12 @@ p, form, #wrapper .copyright, li {
     direction: rtl;
 }
 
+@media screen and (max-width: 1080px) {
+    #wrapper section > header, #wrapper section > footer {
+        text-align: right;
+        direction: rtl;
+    }
+}
 /*#wrapper > section > header, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, button.primary, .button.primary, input[type="checkbox"]:checked + label:before, input[type="radio"]:checked + label:before, input[type="checkbox"]:focus + label:before, input[type="radio"]:focus + label:before, #wrapper:before {
     background-color: #fbd433;
 }*/
