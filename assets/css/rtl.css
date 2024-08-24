@@ -40,6 +40,15 @@ p, form, #wrapper .copyright, li {
         direction: rtl;
     }
 }
-/*#wrapper > section > header, input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, button.primary, .button.primary, input[type="checkbox"]:checked + label:before, input[type="radio"]:checked + label:before, input[type="checkbox"]:focus + label:before, input[type="radio"]:focus + label:before, #wrapper:before {
-    background-color: #fbd433;
-}*/
+
+#wrapper:before, input[type="submit"].primary {
+    background-color: #fec92d;
+}
+
+#wrapper > section > header:before,
+#wrapper > section > header h1:before, #wrapper > section > header h2:before,
+#wrapper > section > header h1:after, #wrapper > section > header h2:after,
+#wrapper > section:last-of-type > header:after
+{
+    background: #c09500;
+}
