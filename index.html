@@ -41,7 +41,18 @@
 						<header>
 							<h2>رزرو جلسه استایلینگ</h2>
 							<p>
-								لطفا در اینجا فرم را تکمیل کنید یا به آی‌دی setara_style در <a href="https://t.me/setara_style">تلگرام</a> یا <a href="https://instagram.com/setara_style">اینستاگرام</a> پیام بدید.
+								لطفا در اینجا فرم را تکمیل کنید یا به آی‌دی ‎@setara_style در
+								<a href="https://t.me/setara_style"
+								target="_blank"
+								class="telegram-link"
+								onclick="openInApp(event, 'tg://resolve?domain=setara_style')">
+								تلگرام</a>
+								یا
+								<a href="https://instagram.com/setara_style"
+								target="_blank"
+								class="instagram-link"
+								onclick="openInApp(event, 'instagram://user?username=setara_style')">
+اینستاگرام</a> پیام بدید.
 							</p>
 						</header>
 						<div class="content">
@@ -85,8 +96,8 @@
 								<li>
 									<h3>شبکه‌های اجتماعی</h3>
 									<ul class="icons">
-										<li><a href="https://instagram.com/setara_style" class="icon brands fa-instagram"><span class="label">اینستاگرام</span></a></li>
-										<li><a href="https://t.me/setara_style" class="icon brands fa-telegram"><span class="label">تلگرام</span></a></li>
+										<li><a href="https://instagram.com/setara_style" target="_blank" onclick="openInApp(event, 'instagram://user?username=setara_style')" class="icon brands fa-instagram"><span class="label">اینستاگرام</span></a></li>
+										<li><a href="https://t.me/setara_style" target="_blank" onclick="openInApp(event, 'tg://resolve?domain=setara_style')" class="icon brands fa-telegram"><span class="label">تلگرام</span></a></li>
 <!--										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
 <!--										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
 <!--										<li><a href="https://www.linkedin.com/setara_style" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>-->
@@ -110,6 +121,14 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function openInApp(event, appLink) {
+					// Check if the visitor is using a mobile device
+					if (/obi|Android|iPhone|iPad/i.test(navigator.userAgent)) {
+						window.location = appLink; // Redirect to Instagram app
+					}
+				}
+			</script>
 
 	</body>
 </html>
