@@ -34,8 +34,22 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 1rem 0;
 }
 
-p, form, #wrapper .copyright, li {
+p, form, #wrapper .copyright, li, ul.feature-icons {
     direction: rtl;
+}
+
+ul.feature-icons li {
+    padding: 0.5rem 4.5rem 0 0;
+    margin: 0.9rem 0 0 0;
+}
+
+ul.feature-icons {
+    margin: 0 0 2rem 0;
+}
+
+ul.feature-icons li:before {
+	left: unset;
+    right: 0;
 }
 
 @media screen and (max-width: 1152px) {
