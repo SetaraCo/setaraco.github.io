@@ -101,3 +101,11 @@ ul.feature-icons li {
 ul.feature-icons {
     margin: -1.4rem 0 2rem 0;
 }
+
+.button.primary {
+    background-color: #93ffe7;
+}
+
+.button.primary:hover {
+    background-color: #b9ffe7;
+}
