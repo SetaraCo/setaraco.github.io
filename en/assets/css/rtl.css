@@ -1,0 +1,103 @@
+/*html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, input, textarea, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+    font-family: Vazirmatn, sans-serif;
+}
+
+.button {
+    font-family: Vazirmatn, sans-serif !important;
+    letter-spacing: 0.01em !important;
+    font-size: 0.9rem !important;
+	}
+
+
+#wrapper section > header h1 + p {
+    font-family: Vazirmatn, sans-serif;
+    letter-spacing: 0.01em;
+    font-size: 0.95rem;
+    line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0.01em;
+}
+
+#wrapper section > header h2 {
+    margin: 0 0 1rem 0;
+}
+
+p, form, #wrapper .copyright, li, ul.feature-icons {
+    direction: rtl;
+}
+
+@media screen and (max-width: 1152px) {
+    #wrapper section > header, #wrapper section > footer {
+        text-align: right;
+        direction: rtl;
+    }
+    #wrapper > section > header {
+        background-color: #fec92d;
+    }
+}
+
+#wrapper:before, input[type="submit"].primary {
+    background-color: #fec92d;
+}
+
+#wrapper > section > header:before,
+#wrapper > section > header h1:before, #wrapper > section > header h2:before,
+#wrapper > section > header h1:after, #wrapper > section > header h2:after,
+#wrapper > section:last-of-type > header:after
+{
+    background: #c09500;
+}
+
+
+.instagram-link {
+    color: #E4405F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.instagram-link:hover {
+    text-decoration: underline;
+}
+
+.telegram-link {
+    color: #0088cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.telegram-link:hover {
+    text-decoration: underline;
+}*/
+
+/* Show the button if @media < 1152px */
+.responsive-button {
+    display: none;
+}
+
+@media (max-width: 1152px) {
+    .responsive-button {
+        display: inline-block;
+    }
+}
+
+/**/
+ul.feature-icons li {
+    padding: 0.5rem 4.5rem 0 0;
+    margin: 0.9rem 0 0 0 !important;
+}
+
+ul.feature-icons {
+    margin: -1.4rem 0 2rem 0;
+}
