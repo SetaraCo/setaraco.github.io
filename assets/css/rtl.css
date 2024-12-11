@@ -58,12 +58,12 @@ ul.feature-icons li:before {
         direction: rtl;
     }
     #wrapper > section > header {
-        background-color: #fec92d;
+        background-color: #879d71;
     }
 }
 
 #wrapper:before, input[type="submit"].primary {
-    background-color: #fec92d;
+    background-color: #879d71;
 }
 
 #wrapper > section > header:before,
@@ -71,7 +71,7 @@ ul.feature-icons li:before {
 #wrapper > section > header h1:after, #wrapper > section > header h2:after,
 #wrapper > section:last-of-type > header:after
 {
-    background: #c09500;
+    background: white;
 }
 
 
